@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const WelcomePage = () => {
     return (
@@ -83,11 +84,7 @@ const WelcomePage = () => {
             </section>
 
             {/* Footer */}
-            <footer className="bg-gray-800 py-6">
-                <div className="max-w-7xl mx-auto text-center text-white">
-                    <p>&copy; 2025 RRR. All rights reserved.</p>
-                </div>
-            </footer>
+            <Footer/>
         </div>
     );
 };

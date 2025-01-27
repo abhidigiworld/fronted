@@ -4,7 +4,7 @@ const Header = () => {
     const location = useLocation(); // Get the current route
 
     // Check if the current path is "/about" or "/login" (or any other route where "Features" shouldn't be shown)
-    const hideFeatures = ["/about", "/login"].includes(location.pathname);
+    const hideFeatures = ["/about", "/login", "/contact" , "/registration"].includes(location.pathname);
 
     return (
         <header className="bg-gray-800 shadow-md py-2">
@@ -74,7 +74,7 @@ const Header = () => {
                         Login
                     </NavLink>
                     <NavLink
-                        to="/register"
+                        to="/registration"
                         className={({ isActive }) =>
                             `py-2 px-4 rounded-md ${isActive
                                 ? "bg-green-600 text-white shadow-md"

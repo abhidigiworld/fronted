@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const AboutPage = () => {
     return (
@@ -132,11 +133,7 @@ const AboutPage = () => {
             </section>
 
             {/* Footer */}
-            <footer className="bg-gray-800 py-6">
-                <div className="max-w-7xl mx-auto text-center text-white">
-                    <p>&copy; 2025 RRR. All rights reserved.</p>
-                </div>
-            </footer>
+            <Footer />
         </div>
     );
 };
