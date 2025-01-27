@@ -56,7 +56,7 @@ const LoginPage = () => {
     return (
         <>
             <Header/>
-            <div className="flex items-center justify-center h-screen bg-gradient-to-br from-purple-800 via-blue-800 to-indigo-800 text-white">
+            <div className="flex items-center justify-center h-screen bg-gradient-to-br from-purple-100 via-blue-200 to-indigo-800 text-white">
                 <div className="container max-w-lg bg-gray-900 bg-opacity-90 p-12 rounded-3xl shadow-lg">
                     <h1 className="text-4xl font-bold text-center mb-8 text-purple-400">
                         Welcome to RRR
